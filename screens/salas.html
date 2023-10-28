@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salas - Vamos Conversar</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<button onclick="sair()" class="btn btn-danger sair">Sair</button>
+
+<div class="container">
+
+    <center>
+
+        <h1>Vamos Conversar</h1>
+
+        <span id="nome" style="font-size: 22px; color: rgb(119, 119, 119);"></span><br>
+
+        <div class="col-lg-6 col-md-6 s">
+
+            <input type="text" class="form-control" id="sala" placeholder="Digite o nome da sala aqui">
+
+            <button class="btn btn-warning" onclick="add()">Adicionar Sala</button>
+            
+        </div>
+
+        <div id="output"></div>
+
+    </center>
+
+</div>
+    <script src="../js/salas.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    font-family: 'Nosifer', sans-serif;
+    margin-top: 50px;
+}
+
+.input input{
+    width: 75%;
+    line-height: 2;
+    padding-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.input{
+    width: 75%;
+    margin: auto;
+    background-color: rgba(240, 248, 255, 0.264);
+    padding: 25px;
+}
+
+.input button{
+    width: 150px;
+    background-color: rgba(0, 255, 255, 0);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.sair{
+    float: right;
+    margin: 15px;
+    display: block;
+}
+span{
+    font-family: 'Nosifer', sans-serif;
+}
+
+.s{
+    width: 100%;
+    margin: auto;
+    background-color: rgba(240, 248, 255, 0.264);
+    padding: 25px;
+}
+.s button{
+    margin-top: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.s input{
+    width: 85%;
+    line-height: 2;
+    padding-left: 15px;
+    
+}
+.output{
+    
+    background-color: rgba(240, 248, 255, 0.264);
+    padding: 15px;
+}
